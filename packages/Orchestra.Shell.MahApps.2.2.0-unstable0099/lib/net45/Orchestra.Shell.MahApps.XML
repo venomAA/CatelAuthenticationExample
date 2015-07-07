@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orchestra.Shell.MahApps</name>
+    </assembly>
+    <members>
+        <member name="M:Orchestra.MahAppsHelper.ApplyTheme">
+            <summary>
+            Sets the theme color of the application. This method dynamically creates an in-memory resource
+            dictionary containing the accent colors used by MahApps.
+            </summary>
+        </member>
+        <member name="M:Orchestra.WindowCommandHelper.CreateWindowCommandButton(System.String,System.String)">
+            <summary>
+            Creates the window command button.
+            </summary>
+            <param name="style">The style.</param>
+            <param name="label">The label.</param>
+            <returns>The right button.</returns>
+        </member>
+        <member name="M:Orchestra.WindowCommandHelper.CreateWindowCommandRectangle(System.Windows.Controls.Button,System.String)">
+            <summary>
+            Creates the window command rectangle.
+            </summary>
+            <param name="parentButton">The parent button.</param>
+            <param name="style">The style.</param>
+            <returns>Rectangle.</returns>
+        </member>
+        <member name="T:ModuleInitializer">
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:ModuleInitializer.Initialize">
+            <summary>
+            Initializes the module.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.MahAppsAboutView">
+            <summary>
+            Interaction logic for MahAppsAboutView.xaml.
+            </summary>
+            <summary>
+            MahAppsAboutView
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.SimpleDataWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.#ctor(Catel.Windows.DataWindowMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.SimpleDataWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.#ctor(Catel.MVVM.IViewModel,Catel.Windows.DataWindowMode,System.Collections.Generic.IEnumerable{Catel.Windows.DataWindowButton})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.SimpleDataWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model.</param>
+            <param name="mode">The data window mode.</param>
+            <param name="additionalButtons">The additional buttons.</param>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ExecuteOk">
+            <summary>
+            Executes the Ok command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnOkCanExecute">
+            <summary>
+            Determines whether the user can execute the Ok command.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnOkExecute">
+            <summary>
+            Handled when the user invokes the Ok command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ExecuteCancel">
+            <summary>
+            Executes the Cancel command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnCancelCanExecute">
+            <summary>
+            Determines whether the user can execute the Cancel command.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnCancelExecute">
+            <summary>
+            Handled when the user invokes the Cancel command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ExecuteApply">
+            <summary>
+            Executes the Apply command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnApplyCanExecute">
+            <summary>
+            Determines whether the user can execute the Apply command.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnApplyExcute">
+            <summary>
+            Handled when the user invokes the Apply command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ExecuteClose">
+            <summary>
+            Executes the Close command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.OnCloseExecute">
+            <summary>
+            Handled when the user invokes the Close command.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.AddCustomButton(Catel.Windows.DataWindowButton)">
+            <summary>
+            Adds a custom button to the list of buttons.
+            </summary>
+            <param name="dataWindowButton">The data window button.</param>
+            <exception cref="T:System.InvalidOperationException">The <paramref name="dataWindowButton"/> is added when the window is already loaded.</exception>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ValidateData">
+            <summary>
+            Validates the data.
+            </summary>
+            <returns>True if successful, otherwise false.</returns>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.ApplyChanges">
+            <summary>
+            Applies all changes made by this window.
+            </summary>
+            <returns>True if successful, otherwise false.</returns>
+        </member>
+        <member name="M:Orchestra.Windows.SimpleDataWindow.DiscardChanges">
+            <summary>
+            Discards all changes made by this window.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Windows.SimpleDataWindow.ViewModel">
+            <summary>
+            Gets the view model that is contained by the container.
+            </summary>
+            <value>The view model.</value>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.Catel#MVVM#Views#IView#Loaded">
+            <summary>
+            Occurs when the view is loaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.Catel#MVVM#Views#IView#Unloaded">
+            <summary>
+            Occurs when the view is unloaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.Catel#MVVM#Views#IView#DataContextChanged">
+            <summary>
+            Occurs when the data context has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.ViewModelChanged">
+            <summary>
+            Occurs when the <see cref="P:Orchestra.Windows.SimpleDataWindow.ViewModel"/> property has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.ViewModelPropertyChanged">
+            <summary>
+            Occurs when a property on the <see cref="P:Catel.MVVM.IViewModelContainer.ViewModel" /> has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.SimpleDataWindow.PropertyChanged">
+            <summary>
+            Occurs when a property on the container has changed.
+            </summary>
+            <remarks>
+            This event makes it possible to externally subscribe to property changes of a <see cref="T:System.Windows.DependencyObject"/>
+            (mostly the container of a view model) because the .NET Framework does not allows us to.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.MahAppsAboutView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.MahAppsAboutView"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.MahAppsAboutView.#ctor(Orchestra.ViewModels.AboutViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.MahAppsAboutView"/> class.
+            </summary>
+            <param name="viewModel">The view model to inject.</param>
+            <remarks>
+            This constructor can be used to use view-model injection.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.MahAppsAboutView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.ShellWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            ShellWindow
+            </summary>
+        </member>
+        <member name="T:Orchestra.Windows.MetroDataWindow">
+            <summary>
+            Base class for a metro window with the Catel mvvm behavior.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.MetroDataWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.MetroDataWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.MetroDataWindow.#ctor(Catel.MVVM.IViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.MetroDataWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model.</param>
+        </member>
+        <member name="P:Orchestra.Windows.MetroDataWindow.ViewModel">
+            <summary>
+            Gets the view model that is contained by the container.
+            </summary>
+            <value>The view model.</value>
+        </member>
+        <member name="P:Orchestra.Windows.MetroDataWindow.PreventViewModelCreation">
+            <summary>
+            Gets or sets a value indicating whether the view model container should prevent the creation of a view model.
+            <para />
+            This property is very useful when using views in transitions where the view model is no longer required.
+            </summary>
+            <value><c>true</c> if the view model container should prevent view model creation; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.ViewModelChanged">
+            <summary>
+            Occurs when the <see cref="P:Orchestra.Windows.MetroDataWindow.ViewModel"/> property has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.Catel#MVVM#Views#IView#Loaded">
+            <summary>
+            Occurs when the view is loaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.Catel#MVVM#Views#IView#Unloaded">
+            <summary>
+            Occurs when the view is unloaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.Catel#MVVM#Views#IView#DataContextChanged">
+            <summary>
+            Occurs when the data context has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.ViewModelPropertyChanged">
+            <summary>
+            Occurs when a property on the <see cref="P:Orchestra.Windows.MetroDataWindow.ViewModel"/> has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.MetroDataWindow.PropertyChanged">
+            <summary>
+            Occurs when a property on the container has changed.
+            </summary>
+            <remarks>
+            This event makes it possible to externally subscribe to property changes of a <see cref="T:System.Windows.DependencyObject"/>
+            (mostly the container of a view model) because the .NET Framework does not allows us to.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.ShellWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.ShellWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.ShellWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MethodTimeLogger">
+            <summary>
+            Note: do not rename this class or put it inside a namespace.
+            </summary>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Reflection.MethodBase,System.Int64)">
+            <summary>
+            Used by MethodTimer.
+            </summary>
+            <param name="methodBase"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Type,System.String,System.Int64)">
+            <summary>
+            Used by custom code.
+            </summary>
+            <param name="type"></param>
+            <param name="methodName"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeShowingSplashScreen">
+            <summary>
+            Initialization code before showing the splash screen.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeCreatingShell">
+            <summary>
+            Initialization code before creating the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeAfterCreatingShell">
+            <summary>
+            Initialization code after creating the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeShowingShell">
+            <summary>
+            Initialization code before showing the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeAfterShowingShell">
+            <summary>
+            Initialization code after showing the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IShellService.CreateWithSplash``1">
+            <summary>
+            Creates a new shell and shows a splash during the initialization.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.IShellService.Create``1">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="P:Orchestra.Services.IShellService.Shell">
+            <summary>
+            Gets the shell.
+            </summary>
+            <value>The shell.</value>
+        </member>
+        <member name="F:Orchestra.Services.ShellService.Log">
+            <summary>
+            The log.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.#ctor(Catel.IoC.ITypeFactory,Orchestra.Services.IKeyboardMappingsService,Catel.MVVM.ICommandManager,Orchestra.Services.ISplashScreenService,Orchestra.Services.IEnsureStartupService,Orchestra.Services.IApplicationInitializationService,Catel.IoC.IDependencyResolver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Services.ShellService"/> class.
+            </summary>
+            <param name="typeFactory">The type factory.</param>
+            <param name="keyboardMappingsService">The keyboard mappings service.</param>
+            <param name="commandManager">The command manager.</param>
+            <param name="splashScreenService">The splash screen service.</param>
+            <param name="ensureStartupService">The ensure startup service.</param>
+            <param name="applicationInitializationService">The application initialization service.</param>
+            <param name="dependencyResolver">The dependency resolver.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="typeFactory"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="keyboardMappingsService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="commandManager"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="splashScreenService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="applicationInitializationService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="dependencyResolver"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.CreateWithSplash``1">
+            <summary>
+            Creates a new shell and shows a splash during the initialization.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.Create``1">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.CreateShellInternal``1(System.Action)">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <param name="postShowShellCallback">The shell created callback.</param>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="P:Orchestra.Services.ShellService.Shell">
+            <summary>
+            Gets the shell.
+            </summary>
+            <value>The shell.</value>
+        </member>
+        <member name="T:resources_icons_xaml">
+            <summary>
+            resources_icons_xaml
+            </summary>
+        </member>
+        <member name="M:resources_icons_xaml.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
